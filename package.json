@@ -1,0 +1,31 @@
+{
+	"name": "convert-jestcode-to-testspec-csv",
+	"description": "Convert jest source code to test specification csv.",
+	"version": "0.0.1",
+	"license": "MIT",
+	"keywords": [
+		"jest",
+		"csv"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/miso-develop/convert-jestcode-to-testspec-csv"
+	},
+	"author": "Miso Tanaka <miso.develop@gmail.com>",
+	"main": "dist/index.js",
+	"scripts": {
+		"node": "node dist",
+		"n": "npm run node",
+		"build": "tsc",
+		"b": "npm run build",
+		"watch": "tsc -w",
+		"w": "npm run watch",
+		"start": "npm run node",
+		"postinstall": "npm run build"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.20",
+		"typescript": ""
+	},
+	"dependencies": {}
+}
